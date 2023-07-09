@@ -1,0 +1,10 @@
+.style-heading {
+  color: green;
+}
+.align-heading {
+  display: flex;
+  width: 100vw;
+  height: 35px;
+  width: 100vw;
+  justify-content: center;
+}

@@ -1,0 +1,27 @@
+.chuckNorriesContainer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 20px;
+  background-image: linear-gradient(to right, #3492eb, #10074f);
+}
+.displayList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style-type: none;
+  margin-top: 0px;
+}
+.loader-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  background-image: linear-gradient(to right, #3492eb, #10074f);
+}

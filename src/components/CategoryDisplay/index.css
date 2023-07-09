@@ -1,0 +1,102 @@
+.categoryDisplayContainer {
+  height: 18vh;
+  width: 18vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+}
+.categoryDisplayContainer2 {
+  height: 20vh;
+  width: 18vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #a1a6a2;
+  margin: 10px;
+  border-radius: 10px;
+}
+.categoryButton {
+  background-color: transparent;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 0px;
+}
+.close-button {
+  align-self: flex-end;
+  background-color: transparent;
+  width: 28px;
+  height: 28px;
+  border: none;
+  margin-top: 0px;
+  margin-right: 8px;
+  outline: none;
+  cursor: pointer;
+}
+.popup-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  width: 50vw;
+}
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #35325c, #1e1d33);
+
+  height: 38vh;
+  width: 50vw;
+}
+.popup-heading {
+  padding-left: 20vw;
+  color: white;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .popup-heading {
+    font-size: 30px;
+  }
+}
+
+.category-display {
+  font-size: 10px;
+  color: #0f0ceb;
+}
+
+@media screen and (min-width: 768px) {
+  .category-display {
+    font-size: 18px;
+  }
+}
+
+.category-description-display {
+  font-size: 10px;
+  color: #7511c2;
+}
+
+@media screen and (min-width: 768px) {
+  .category-description-display {
+    font-size: 16px;
+  }
+}
+
+.test {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+.test1 {
+  height: 100px;
+  width: 50vw;
+  position: fixed;
+  top: 25vh;
+  right: 25vw;
+}
