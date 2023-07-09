@@ -4,7 +4,7 @@ import './index.css'
 const ChuckNorriesHeading = () => (
   // eslint-disable-next-line jsx-a11y/no-distracting-elements
   // eslint-disable-next-line react/no-unknown-property
-  <marquee behavior="scroll" direction="down" scrollamount="4">
+  <marquee behavior="alternate" direction="up" scrollamount="2" height="100">
     <div className="align-heading">
       <h1 className="style-heading">Chuck Norries</h1>
     </div>
